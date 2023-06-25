@@ -1,9 +1,46 @@
-.navbar_list-item a {
-    transition: all 0.2s ease-out;
-
+.navbar_list-item {
+   transition: color 0.2s;
+   -webkit-transition: color 0.2s;
+   -moz-transition: color 0.2s;
+   -ms-transition: color 0.2s;
+   -o-transition: color 0.2s;
 }
 
-.navbar_list-item a:hover {
-    background: red;
-    transition: all 0.2s ease-in;
+.navbar_list-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background: var(--border);
+    z-index: -1;
+    left: 100%;
+    width: 0%;
+    transition: 0.2s;
+}
+
+.navbar_list-item:hover {
+    color: var(--card);
+}
+
+.navbar_list-item:hover::before {
+    left: 0%;
+    width: 100%;
+    transition: width 0.2s;
+}
+
+@keyframes translateX {
+    0% {
+        transform: translateX(0);
+     
+}
+
+    100% {
+        transform: translateX(100%);
+       
+}
+}
+
+.logo {
+    animation: translateX 3s infinite;
+    -webkit-animation: translateX 3s infinite;
 }
