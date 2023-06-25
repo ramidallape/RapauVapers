@@ -81,9 +81,6 @@
 
 @media (max-width: 576px) {
 
-* {
-    border: 1px solid red
-}
 .navbar_list {
     width: 50%;
 }    
@@ -95,12 +92,16 @@
 
 .hero_info h1 {
     font-size: 34px;
-    width: 70%;
+    width: 100%;
     max-width: unset;
 }
 
 .hero_img {
-    width: 140%;
+    width: 100%;
+}
+
+#cards h2 {
+    width: 100%;
 }
 
 .card {
@@ -115,6 +116,9 @@
 .container_contact-dat {
     display: flex;
     flex-direction: column;
+}
+#contact h2 {
+    width: 100%;
 }
 
 #footer {

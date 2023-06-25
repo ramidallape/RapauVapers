@@ -162,7 +162,7 @@ header {
 
 #cards {
     background: var(--background);
-    padding: 50px 0px 20px 20px;
+    padding: 50px 0px 40px 20px;
     max-width: 100%;
 }
 
@@ -194,6 +194,7 @@ header {
     justify-content: center;
     gap: 70px;
     padding-bottom: 50px;
+    padding: 40px 0px;
 }
 
 .container {
