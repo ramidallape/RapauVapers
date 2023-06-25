@@ -81,6 +81,10 @@
 
 @media (max-width: 576px) {
 
+.navbar_list {
+    width: 50%;
+}    
+
 .hero_info {
     width: 80%;
     max-width: unset;
