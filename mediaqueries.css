@@ -81,6 +81,9 @@
 
 @media (max-width: 576px) {
 
+* {
+    border: 1px solid red
+}
 .navbar_list {
     width: 50%;
 }    

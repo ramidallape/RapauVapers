@@ -1,0 +1,9 @@
+.navbar_list-item a {
+    transition: all 0.2s ease-out;
+
+}
+
+.navbar_list-item a:hover {
+    background: red;
+    transition: all 0.2s ease-in;
+}
