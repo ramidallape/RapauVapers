@@ -58,7 +58,7 @@
 }
 
 .hero_info h1 {
-    padding-left: 40px;
+    min-width: 320px;
 }
 
 .about_us-info {
@@ -81,14 +81,9 @@
 
 @media (max-width: 576px) {
 
-
 .navbar_list {
     width: 50%;
 }    
-
-* {
-    border: 1px solid red;
-}
 
 .hero_info {
     width: 80%;
@@ -106,6 +101,7 @@
 }
 
 #cards h2 {
+    min-width: 320px;
     width: 100%;
 }
 
@@ -123,7 +119,9 @@
     flex-direction: column;
 }
 #contact h2 {
+    min-width: 400px;
     width: 100%;
+    
 }
 
 #footer {
