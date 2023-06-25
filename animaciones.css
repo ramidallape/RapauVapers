@@ -28,19 +28,25 @@
     transition: width 0.2s;
 }
 
-@keyframes translateX {
+@keyframes rotate {
     0% {
-        transform: translateX(0);
-     
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
 }
 
     100% {
-        transform: translateX(100%);
-       
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
 }
 }
 
 .logo {
-    animation: translateX 3s infinite;
-    -webkit-animation: translateX 3s infinite;
+    animation: rotate 3s infinite;
+    -webkit-animation: rotate 3s infinite;
 }
