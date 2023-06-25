@@ -72,3 +72,9 @@ body {
 .registro a:hover {
     text-decoration: underline;
 }
+
+@media (max-width: 576px) {
+    .registro {
+        width: 95%;
+    }
+}
