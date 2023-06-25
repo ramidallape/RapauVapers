@@ -1,0 +1,116 @@
+:root {
+    --background: #0A0410;
+    --navbar: #EAD7E3;
+    --primary: #520030;
+    --secondary: #FFC2ED;
+    --text: #FFEBF5;
+    --navbar-text: #92634b;
+    --border: #FF5C6F;
+    --card: #3D0007;
+    --cards: #262C2C;
+}
+
+@media (max-width:1110px) {
+    .navbar_list {
+        position: absolute;
+        top: 140px;
+        left: 5%;
+        right: 5%;
+        width: 30%;
+        flex-direction: column;
+        background: var(--navbar);
+        border: 2.5px solid gray;
+        border-top: none;
+        border-radius: 0px 0px 15px 15px;
+        align-items: flex-start;
+        padding: 40px 30px;
+        gap: 30px;
+        z-index: 2;
+        display: none;
+}
+
+.menu_label {
+    display: flex;
+    order: 2;
+    cursor: pointer;
+}
+
+.menu_icon {
+    height: 35px;
+    width: 25px;
+    
+}
+
+#menu_toggle:checked + .navbar_list {
+    display: flex;
+}
+
+#hero {
+    flex-direction: column;
+}
+
+.hero_info {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.hero_info h1 {
+    padding-left: 40px;
+}
+
+.about_us-info {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.cards {
+    flex-direction: column;
+    gap: 20px;
+}
+
+#footer {
+    height: max-content;
+}
+
+    }
+
+@media (max-width: 576px) {
+
+.hero_info {
+    width: 80%;
+    max-width: unset;
+}
+
+.hero_info h1 {
+    font-size: 34px;
+    width: 70%;
+    max-width: unset;
+}
+
+.hero_img {
+    width: 140%;
+}
+
+.card {
+    width: 70%;
+    max-width: unset;
+}
+
+.card_img {
+    width: 100%;
+}
+
+.container_contact-dat {
+    display: flex;
+    flex-direction: column;
+}
+
+#footer {
+    flex-direction: column;
+}
+}
