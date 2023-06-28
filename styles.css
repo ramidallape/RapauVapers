@@ -46,7 +46,7 @@ header {
 }
 
 .logo {
-    height: 170px;
+    height: 145px;
 }
 
 .acceso {
@@ -76,6 +76,7 @@ header {
     font-size: 20px;
 }
 
+
 #hero {
     padding: 0px 20px;
     max-width: 100%;
@@ -91,7 +92,6 @@ header {
     gap: 15px;
     width: 100%;
 }
-
 .hero_info h1 {
     font-size: 50px;
     width: 100%;
@@ -311,13 +311,14 @@ header {
 
 #footer {
     background: var(--cards);
-    height: 220px;
+    height: 200px;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
     gap: 50px;
     border-top: solid 0.2rem var(--border);
+    height: 100%;
 }
 
 .footer_img {

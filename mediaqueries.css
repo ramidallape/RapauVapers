@@ -41,6 +41,10 @@
     
 }
 
+.logo {
+    height: 140px;
+}
+
 #menu_toggle:checked + .navbar_list {
     display: flex;
 }
@@ -83,7 +87,11 @@
 
 .navbar_list {
     width: 50%;
-}    
+} 
+
+.logo {
+    height: 130px;
+}
 
 .hero_info {
     width: 80%;
