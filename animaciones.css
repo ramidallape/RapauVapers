@@ -97,17 +97,6 @@
     transition: all 0.3s ease-in;
 }
 
-@keyframes slide-right {
-    from {
-        transform: translateX(100px);
-    }
-    to {
-        transform: translateX(0px);    
-    }
-}
 
-.hero_info h1 {
-    animation: slide-right 2s ease-in-out;
-}
 
 
