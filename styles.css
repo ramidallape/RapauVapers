@@ -203,6 +203,7 @@ header {
     justify-content: center;
     align-items: center;
     height: 90vh;
+    height: fit-content;
 }
 
 .card_img {
